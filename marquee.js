@@ -1,4 +1,4 @@
-var $ = require('jquery');
+var $ = require('./jquery');
 
 $.fn.marquee = function() {
     var elements = $(this);
