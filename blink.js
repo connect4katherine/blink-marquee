@@ -1,3 +1,5 @@
+var $ = require('./jquery');
+
 $.fn.blink = function() {
     var elements = $(this);
     setInterval(function() {

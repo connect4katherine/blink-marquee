@@ -1,3 +1,5 @@
+var $ = require('jquery');
+
 $.fn.marquee = function() {
     var elements = $(this);
     elements.wrap(function() {
